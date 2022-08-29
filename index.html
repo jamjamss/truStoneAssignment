@@ -9,15 +9,12 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <form class="form">
-    
-            <label id="inputQuestion">Please enter a county pin <input type="text" name ="inputQuestion" id="countyPin">
-            </label>
-            <input type="submit" value="submit" name="submit">
-        </form>
-
-    </div>
+  <fieldset>
+      <legend> Please enter a county code:</legend>
+      <input type="text" id="userInput" value ="" placeholder="county pin" />
+      <button type="button" onclick="sbmit()">Submit</button>
+      <h1 id="inputResults"></h1>
+  </fieldset>
 
     <script src="index.js"></script>
 </body>
